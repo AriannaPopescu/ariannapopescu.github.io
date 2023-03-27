@@ -926,7 +926,7 @@ h3 {
 		gap: 16px;
 		font-weight: 600;
 		font-size: 22px;
-		margin-top: 100px;
+		margin-top: 160px;
 		margin-left: -8px;
 		position: absolute;
 		cursor: pointer;
@@ -2734,7 +2734,7 @@ h3 {
 		gap: 16px;
 		font-weight: 600;
 		font-size: 22px;
-		margin-top: 100px;
+		margin-top: 140px;
 		padding-left: 0px;
 		margin-right: 0px;
 		position: absolute;
@@ -3673,7 +3673,7 @@ h3 {
 		align-items: center;
 		flex-direction: row;
 		justify-content: center;
-		gap:60px;
+		gap:80px;
 		margin-top: 20px;
 		margin-bottom: 150px;
 		overflow: hidden;
@@ -3728,7 +3728,7 @@ h3 {
 		width: 280px;
 		height: 60px;
 		padding: 14px;
-		margin-top: 8px;
+		margin-top: 14px;
 		transition: 0.4s;
 		
 	}
