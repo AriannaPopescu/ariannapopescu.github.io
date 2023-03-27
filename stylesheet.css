@@ -2360,7 +2360,7 @@ h3 {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 40px;
+		gap: 80px;
 		height: 600px;
 		overflow: hidden;
 		padding-top: 140px;
@@ -3249,7 +3249,7 @@ h3 {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 40px;
+		gap: 80px;
 		height: 800px;
 		overflow: hidden;
 		padding-top: 200px;
@@ -4129,7 +4129,7 @@ h3 {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		gap: 60px;
+		gap: 200px;
 		height: 600px;
 		overflow: hidden;
 		padding-top: 160px;
