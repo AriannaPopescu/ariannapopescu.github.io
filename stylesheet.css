@@ -3189,7 +3189,7 @@ h3 {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding-top: 60px;	
+		padding-top: 120px;	
 		margin-bottom: 54px;
 	}
 	
@@ -4129,7 +4129,7 @@ h3 {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		gap: 100px;
+		gap: 40px;
 		height: 600px;
 		overflow: hidden;
 		padding-top: 160px;
