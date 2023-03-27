@@ -1233,7 +1233,7 @@ h3 {
 		margin-top: 60px;
 		display: flex;
 		flex-direction: row;
-		justify-content: end;
+		justify-content: right;
 	}
 	.quote {
 		width: 280px;
