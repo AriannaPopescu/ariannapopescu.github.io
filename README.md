@@ -9,5 +9,6 @@ It's made of a presentational Homepage, an About me page (where I talk a bit abo
 - Assets (Images, CSS, JS)
 
 ## How to see the Website
+https://ariannapopescu.github.io/
 
 
