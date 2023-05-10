@@ -19,7 +19,7 @@ body {
 
 .header {
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	position: fixed;
 	background-color: #F9F7F3;
 	display: flex;
@@ -112,14 +112,27 @@ a.active {
 	padding-top: 100px;
 	width:100%;
 	height: 620px;
-	background-image: url(images/moon.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
+.hero {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.hero-img {
+	width: 600px;
+	height: 600px;
+	align-items: baseline;
+	margin-right: 100px;
+	padding-top: 80px;
+}
+
 .intro-text {
-	padding-top: 100px;
-	padding-left: 148px;;
+	padding-top: 80px;
+	padding-left: 100px;;
 	display: inline-block;
 }
 
@@ -141,15 +154,15 @@ h1 {
 	font-size:22px;
 	font-weight: 500 ;
 	line-height: 40px;
-	width: 550px;
+	width: 580px;
 }
 
 .name {
-	color: #F9F7F3;
+	color: #431381;
 	font-size: 80px;
 }
 .job {
-	color: #F9F7F3;
+	color:#431381;
 	font-weight: 700;
 }
 
@@ -807,7 +820,7 @@ h3 {
 
 	.header {
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	position: fixed;
 	background-color: #F9F7F3;
 	display: flex;
@@ -852,25 +865,41 @@ h3 {
 
 
 	.intro {
-		padding-top: 30px;
+		padding-top: 0px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		width:100%;
-		height: 540px;
-		background-image: url(images/moon-phone.jpg);
+		height: 250px;
 		background-size: cover;
 		background-position: center;
 		gap: 0px;
 	}
+
+	.hero {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.hero-img {
+		width: 300px;
+		height: 300px;
+		align-items: baseline;
+		margin-top: 100px;
+		padding-top: 0px;
+		margin-right: 0px;
+	}
+
+
 	.intro-text {
 
-		padding-top: 20px;
+		padding-top: 0px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding-left: 40px;
+		padding-left: 34px;
 	}
 	h1 {
 		display: flex;
@@ -908,12 +937,12 @@ h3 {
 
 	}
 	.name {
-		color: #F9F7F3;
+		color: #431381;
 		font-size: 48px;
 		margin-left: 12px;
 	}
 	.job {
-		color: #F9F7F3;
+		color: #431381;
 		font-weight: 700;
 	}
 	.btn2 {
@@ -925,7 +954,7 @@ h3 {
 		gap: 16px;
 		font-weight: 600;
 		font-size: 22px;
-		margin-top: 180px;
+		margin-top: 320px;
 		margin-left: -8px;
 		position: absolute;
 		cursor: pointer;
@@ -1739,7 +1768,7 @@ h3 {
 
 	.header {
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	position: fixed;
 	background-color: #F9F7F3;
 	display: flex;
@@ -1783,14 +1812,30 @@ h3 {
 		padding-top: 30px;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: left;
 		width:100%;
-		height: 540px;
-		background-image: url(images/moon-phone.jpg);
+		height: 200px;
 		background-size: cover;
 		background-position: center;
 		gap: 0px;
 	}
+
+	.hero {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.hero-img {
+		width: 400px;
+		height: 400px;
+		align-items: baseline;
+		margin-top: 100px;
+		padding-top: 0px;
+		margin-right: 0px;
+	}
+
+
 	.intro-text {
 
 		padding-top: 20px;
@@ -1798,7 +1843,8 @@ h3 {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding-left: 40px;
+		padding-left: 60px;
+		width: 450px;
 	}
 	h1 {
 		display: flex;
@@ -1831,18 +1877,18 @@ h3 {
 		font-size:18px;
 		font-weight: 500 ;
 		line-height: 34px;
-		width: 100%;
+		width: 300px;
 		padding-left: 40px;
 		padding-right: 40px;
 		margin-left: 80px;
 	}
 	.name {
-		color: #F9F7F3;
+		color: #431381;
 		font-size: 48px;
 		margin-left: 12px;
 	}
 	.job {
-		color: #F9F7F3;
+		color: #431381;
 		font-weight: 700;
 	}
 	.btn2 {
@@ -1854,8 +1900,8 @@ h3 {
 		gap: 16px;
 		font-weight: 600;
 		font-size: 22px;
-		margin-top: 180px;
-		padding-left: 0px;
+		margin-top: 300px;
+		padding-left: 00px;
 		margin-right: 0px;
 		position: absolute;
 		cursor: pointer;
@@ -1909,7 +1955,7 @@ h3 {
 		flex-direction: column;
 		justify-content: center;
 		gap:20px;
-		margin-top: 20px;
+		margin-top: 150px;
 		margin-bottom: 150px;
 		overflow: hidden;
 	
@@ -2660,25 +2706,41 @@ h3 {
 /*----------------------------------------- @tablet ------------------------------------------*/
 @media only screen and (min-width: 661px) and (max-width: 900px) {
 	.intro {
-		padding-top: 30px;
+		padding-top: 0px;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: left;
 		width:100%;
-		height: 540px;
-		background-image: url(images/moon-phone.jpg);
+		height: 300px;
 		background-size: cover;
 		background-position: center;
 		gap: 0px;
 	}
+
+	.hero {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.hero-img {
+		width: 420px;
+		height: 420px;
+		align-items: baseline;
+		margin-top: 100px;
+		padding-top: 0px;
+		margin-right: 0px;
+	}
+
 	.intro-text {
 
-		padding-top: 20px;
+		padding-top: 0px;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: left;
 		justify-content: center;
-		padding-left: 40px;
+		padding-left: 80px;
+		width: 600px;
 	}
 	h1 {
 		display: flex;
@@ -2717,11 +2779,11 @@ h3 {
 		margin-left: 80px;
 	}
 	.name {
-		color: #F9F7F3;
+		color: #431381;
 		font-size: 48px;
 	}
 	.job {
-		color: #F9F7F3;
+		color: #431381;
 		font-weight: 700;
 	}
 	.btn2 {
@@ -2733,7 +2795,7 @@ h3 {
 		gap: 16px;
 		font-weight: 600;
 		font-size: 22px;
-		margin-top: 180px;
+		margin-top: 300px;
 		padding-left: 0px;
 		margin-right: 0px;
 		position: absolute;
@@ -2788,7 +2850,7 @@ h3 {
 		flex-direction: column;
 		justify-content: center;
 		gap: 10px;
-		margin-top: 20px;
+		margin-top: 100px;
 		margin-bottom: 150px;
 		overflow: hidden;
 	
@@ -3548,22 +3610,40 @@ h3 {
 		padding-top: 30px;
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		width:100%;
+		justify-content: left;
+		width:520px;
 		height: 540px;
-		background-image: url(images/moon-phone.jpg);
 		background-size: cover;
 		background-position: center;
 		gap: 0px;
 	}
+
+	.hero {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: left;
+		overflow: hidden;
+	}
+	.hero-img {
+		width: 400px;
+		height: 400px;
+		align-items: baseline;
+		margin-top: 150px;
+		padding-top: 0px;
+		margin-right: 40px;
+	}
+
+
 	.intro-text {
 
 		padding-top: 20px;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding-left: 40px;
+		align-items: left;
+		justify-content: left;
+		padding-left: 60px;
+		width: 600px;
 	}
 	h1 {
 		display: flex;
@@ -3590,23 +3670,23 @@ h3 {
 	
 	
 	.description {
-		justify-content: center;
-		align-items: center;
+		justify-content: left;
+		align-items: left;
 		margin-top: 14px;
 		font-size:18px;
 		font-weight: 500 ;
 		line-height: 34px;
-		width: 100%;
+		width: 600px;
 		padding-left: 0px;
-		padding-right: 40px;
+		padding-right: 0px;
 		margin-left: 80px;
 	}
 	.name {
-		color: #F9F7F3;
+		color: #431381;
 		font-size: 48px;
 	}
 	.job {
-		color: #F9F7F3;
+		color: #431381;
 		font-weight: 700;
 	}
 	.btn2 {
@@ -3618,7 +3698,7 @@ h3 {
 		gap: 16px;
 		font-weight: 600;
 		font-size: 22px;
-		margin-top: 200px;
+		margin-top: 250px;
 		padding-left: 0px;
 		margin-right: 0px;
 		position: absolute;
