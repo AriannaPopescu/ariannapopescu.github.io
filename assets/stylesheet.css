@@ -607,6 +607,13 @@ h3 {
 	background: linear-gradient(180deg, rgba(161, 199, 98, 0.85) 32.21%, rgba(249, 247, 243, 0.85) 100%);
 }
 
+.gif {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 200px;
+	width: 900px;
+}
 
 
 .section-title {
@@ -1466,6 +1473,16 @@ h3 {
 		background: linear-gradient(180deg, rgba(161, 199, 98, 0.85) 32.21%, rgba(249, 247, 243, 0.85) 100%);
 	}
 
+	.gif {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 100px;
+		width: 300px;
+		margin-top: -100px;
+	}
+	
+
 	.project-one img {
 		width: 300px;
 	}
@@ -1574,7 +1591,7 @@ h3 {
 		display: flex;
 		font-weight: 700;
 		justify-content: center;
-		color: #24530E;
+		color: #121212;
 		margin-bottom: -50px;
 		}
 	
@@ -2413,6 +2430,15 @@ h3 {
 		background: linear-gradient(180deg, rgba(161, 199, 98, 0.85) 32.21%, rgba(249, 247, 243, 0.85) 100%);
 	}
 
+	.gif {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 200px;
+		width: 420px;
+		margin-top: -40px;
+	}
+
 	.project-one img {
 		width: 420px;
 	}
@@ -2529,7 +2555,7 @@ h3 {
 		display: flex;
 		font-weight: 700;
 		justify-content: center;
-		color: #24530E;
+		color: #121212;
 		margin-bottom: -50px;
 		}
 	
@@ -3318,6 +3344,15 @@ h3 {
 		background: linear-gradient(180deg, rgba(161, 199, 98, 0.85) 32.21%, rgba(249, 247, 243, 0.85) 100%);
 	}
 
+	.gif {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 200px;
+		width: 600px;
+		margin-top: -50px;
+	}
+
 	.project-one img {
 		width: 600px;
 	}
@@ -3434,7 +3469,7 @@ h3 {
 		display: flex;
 		font-weight: 700;
 		justify-content: center;
-		color: #24530E;
+		color: #121212;
 		margin-bottom: -50px;
 		}
 	
@@ -4216,6 +4251,14 @@ h3 {
 		background: linear-gradient(180deg, rgba(161, 199, 98, 0.85) 32.21%, rgba(249, 247, 243, 0.85) 100%);
 	}
 
+	.gif {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 300px;
+		width: 800px;
+	}
+
 	.project-one img {
 		width: 500px;
 	}
@@ -4333,8 +4376,9 @@ h3 {
 		display: flex;
 		font-weight: 700;
 		justify-content: center;
-		color: #24530E;
+		color: #121212;
 		margin-bottom: -50px;
+		font-size: 34px;
 		}
 	
 	.steps h3 {
