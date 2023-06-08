@@ -228,6 +228,7 @@ button {
 
 .project1 img {
 	width:500px;
+	overflow: none;
 }
 
 .text {
