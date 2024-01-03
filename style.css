@@ -2,7 +2,7 @@
 
 :root{
   --background-dark:rgb(35, 35, 35);;
-  --text-light: hsla(43, 10%, 98%, 0.9);
+  --text-light: hsla(43, 10%, 98%, 1);
   --text-lighter: hsla(43, 10%, 98%, 1);
   --text-dark: rgb(35, 35, 35);
   --text-gray: rgb(35, 35, 35, 0.7);
