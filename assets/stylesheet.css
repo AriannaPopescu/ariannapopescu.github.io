@@ -1,4 +1,6 @@
+
 /* General styles */
+
 * {
 	margin:0;
 	padding:0;
@@ -13,7 +15,7 @@ html {
 
 
 body {
-	background-color: #F9F7F3;
+	background-color:var(--text-dark);
 	color: #121212;
 }
 
@@ -21,7 +23,7 @@ body {
 	width: 100%;
 	height: 80px;
 	position: fixed;
-	background-color: #F9F7F3;
+	background-color: rgb(233, 233, 232);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -250,7 +252,7 @@ button {
 }	
 
 h2 {
-	font-size: 40px;
+	font-size: 48px;
 	font-weight: 600;
 	line-height: 56px;
 	width:470px;
@@ -1402,8 +1404,8 @@ h3 {
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		margin-bottom: 80px;
-		padding-top: 80px;
+		margin-bottom: 0px;
+		padding-top: 0px;
 	
 		
 	}

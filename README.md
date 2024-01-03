@@ -11,4 +11,6 @@ It's made of a presentational Homepage, an About me page (where I talk a bit abo
 ## How to see the Website
 https://ariannapopescu.github.io/
 
-
+ .card-grid{
+    grid-template-columns: repeat(4, 1fr); 
+  }
