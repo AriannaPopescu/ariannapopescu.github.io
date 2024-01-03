@@ -427,7 +427,7 @@ row-gap: 4rem;
   
 	.about-me img {
 		width: 400px;
-		margin-top: 160px;
+		margin-top: 80px;
 		
 		border-radius: 16px;
 	}
@@ -617,7 +617,7 @@ row-gap: 4rem;
 
       .about-me img {
         width: 330px;
-        margin-top: 160px;
+        margin-top: 40px;
         
         border-radius: 16px;
       }
@@ -806,7 +806,7 @@ row-gap: 4rem;
   }
   .about-me img {
 		width: 230px;
-		margin-top: 160px;
+		margin-top: 40px;
 		
 		border-radius: 16px;
 	}
