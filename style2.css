@@ -541,6 +541,12 @@ row-gap: 4rem;
 		padding-right: 20px;
 	
 	}
+  .resume img{
+		justify-content: center;
+		align-items: center;
+		width: 450px;
+   padding-top: 2rem;
+	}
 
 	.hamburger.active .bar:nth-child(2) {
 		opacity: 0;
@@ -716,6 +722,13 @@ row-gap: 4rem;
 		display:block;
 		padding-right: 20px;
 	
+	}
+
+  .resume img{
+		justify-content: center;
+		align-items: center;
+		width: 400px;
+   padding-top: 2rem;
 	}
 
 	.hamburger.active .bar:nth-child(2) {
