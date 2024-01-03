@@ -1,28 +1,5 @@
 
 
-
-
-h3 {
-  font-size: 1.9em;
-  font-weight: 700;
-}
-
-
-
-.description {
-  white-space: wrap;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-
-
-
-
-
 :root{
   --background-dark:rgb(35, 35, 35);;
   --text-light: hsla(43, 10%, 98%, 0.9);
@@ -55,6 +32,29 @@ body{
   height: 100%;
   background-color:var(--text-dark);
 }
+
+
+
+h3 {
+  font-size: 1.9em;
+  font-weight: 700;
+}
+
+
+
+.description {
+  white-space: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
 
 
 .header {
