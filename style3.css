@@ -1,6 +1,6 @@
 :root{
   --background-dark: rgb(233, 233, 232);
-  --background-grey: #fbfbe1ec;
+  --background-grey: hsla(43, 10%, 98%, 1);
   --text-light: hsla(43, 10%, 98%, 1);
   --text-lighter: hsla(43, 10%, 98%, 1);
   --text-dark: rgb(35, 35, 35);
